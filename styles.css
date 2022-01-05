@@ -1,0 +1,183 @@
+.main-image {
+  display: flex;
+  align-content: center;
+  height: 775px;
+}
+
+#mountains-image {
+  width: 1350px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  left: 35px;
+  top: 35px;
+}
+
+#name-box {
+  background-color: white;
+  height: 145px;
+  width: 200px;
+  display: flex;
+  position: relative;
+  right: 675px;
+  top: 250px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.info-section {
+  height: 800px;
+  width: 1400px;
+  position: relative;
+  left: 12px;
+}
+#quote-div {
+  height: 50px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  position: relative;
+  left: 320px;
+  font-size: 30px;
+  font-weight: 50px;
+  color: #181f1c;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.quotemark {
+  color: #bfd7b5;
+  font-size: 110px;
+}
+#left-quote {
+  position: relative;
+  bottom: 50px;
+  left: 15px;
+  font-family: "Island Moments", cursive;
+  transform: rotate(180deg);
+}
+#right-quote {
+  position: relative;
+  bottom: 70px;
+  right: 15px;
+  font-family: "Island Moments", cursive;
+}
+.knowledge-part {
+  height: 600px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.sections-headings {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  display: flex;
+  color: #315c2b;
+  text-decoration: underline;
+}
+
+/* .icons {
+  font-size: 30px;
+} */
+
+#langs {
+  height: 250px;
+  width: 1200px;
+  background-color: hotpink;
+  z-index: 5;
+}
+#projects {
+  height: 350px;
+  width: 1200px;
+  background-color: indigo;
+}
+
+.about-me {
+  height: 800px;
+  width: 1400px;
+  background-color: #bfd7b5;
+  position: relative;
+  left: 12px;
+}
+#about-me {
+  height: 600px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+#blurb {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  color: #181f1c;
+  height: 400px;
+  width: 700px;
+  position: relative;
+  left: 75px;
+}
+#image-container {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 950px;
+  bottom: 440px;
+}
+#image-of-me {
+  height: 250px;
+  width: 250px;
+}
+#signature {
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  font-family: "Licorice", cursive;
+  font-size: 50px;
+}
+.email-section {
+  width: 1400px;
+  height: 200px;
+  background-color: #60712f;
+  position: relative;
+  bottom: 350px;
+  text-align: center;
+}
+#email-header {
+  color: white;
+  font-size: 60px;
+  font-family: "Licorice", cursive;
+  text-decoration: underline;
+}
+#email-btn {
+  background-color: white;
+  color: #60712f;
+  width: 300px;
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+  border-radius: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+#email-btn:hover {
+  cursor: pointer;
+  background-color: #274029;
+  color: white;
+}
+#portfolio {
+  background-color: #bfd7b5;
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  position: relative;
+  left: 12px;
+}
