@@ -15,11 +15,11 @@
 
 #name-box {
   background-color: white;
-  height: 145px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   display: flex;
   position: relative;
-  right: 675px;
+  right: 760px;
   top: 250px;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 25px;
@@ -180,4 +180,47 @@
   display: flex;
   position: relative;
   left: 12px;
+}
+#portfolio-section {
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.contact-section {
+  background-color: #71af76;
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  position: relative;
+  left: 12px;
+}
+#contact-me {
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.additional-info {
+  background-color: #274029;
+  width: 1400px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  left: 12px;
+}
+#add-info-section {
+  height: 200px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
 }
