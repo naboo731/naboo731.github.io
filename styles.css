@@ -1,14 +1,14 @@
 .main-header {
   width: 100%;
-  height: 60px;
-  background-color: tomato;
+  height: 50px;
+  background-color: white;
   position: fixed;
   display: flex;
   z-index: 20;
   margin-top: -10px;
 }
 #nav-links-header {
-  height: 60px;
+  height: 50px;
   width: 800px;
   display: flex;
   position: relative;
@@ -43,8 +43,8 @@
   color: #6b705c;
 }
 #header-image {
-  height: 60px;
-  width: 60px;
+  height: 45px;
+  width: 45px;
 }
 .main-image {
   display: flex;
@@ -127,20 +127,25 @@
   text-decoration: underline;
 }
 
-/* .icons {
-  font-size: 30px;
-} */
+.icons {
+  font-size: 80px;
+  color: #cb997e;
+}
 
 #langs {
-  height: 250px;
+  height: 100px;
   width: 1200px;
-  background-color: hotpink;
+  display: flex;
+  justify-content: space-evenly;
   z-index: 5;
 }
 #projects {
   height: 350px;
   width: 1200px;
-  background-color: indigo;
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-me {
