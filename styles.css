@@ -1,3 +1,51 @@
+.main-header {
+  width: 100%;
+  height: 60px;
+  background-color: tomato;
+  position: fixed;
+  display: flex;
+  z-index: 20;
+  margin-top: -10px;
+}
+#nav-links-header {
+  height: 60px;
+  width: 800px;
+  display: flex;
+  position: relative;
+  left: 250px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#knowledge {
+  position: relative;
+  right: 240px;
+  text-decoration: none;
+  color: #6b705c;
+}
+#about {
+  position: relative;
+  right: 100px;
+  text-decoration: none;
+  color: #6b705c;
+}
+#port {
+  position: relative;
+  left: 70px;
+  text-decoration: none;
+  color: #6b705c;
+}
+#cont {
+  position: relative;
+  left: 240px;
+  text-decoration: none;
+  color: #6b705c;
+}
+#header-image {
+  height: 60px;
+  width: 60px;
+}
 .main-image {
   display: flex;
   align-content: center;
@@ -75,7 +123,7 @@
   font-family: "Playfair Display", serif;
   font-size: 30px;
   display: flex;
-  color: #315c2b;
+  color: #6b705c;
   text-decoration: underline;
 }
 
@@ -98,7 +146,7 @@
 .about-me {
   height: 800px;
   width: 1400px;
-  background-color: #bfd7b5;
+  background-color: #b7b7a4;
   position: relative;
   left: 12px;
 }
@@ -146,7 +194,7 @@
 .email-section {
   width: 1400px;
   height: 200px;
-  background-color: #60712f;
+  background-color: #ddbea9;
   position: relative;
   bottom: 350px;
   text-align: center;
@@ -170,11 +218,11 @@
 }
 #email-btn:hover {
   cursor: pointer;
-  background-color: #274029;
+  background-color: #6b705c;
   color: white;
 }
 #portfolio {
-  background-color: #bfd7b5;
+  background-color: #b7b7a4;
   width: 1400px;
   height: 500px;
   display: flex;
@@ -191,7 +239,7 @@
   left: 100px;
 }
 .contact-section {
-  background-color: #71af76;
+  background-color: #94a187;
   width: 1400px;
   height: 500px;
   display: flex;
@@ -208,7 +256,7 @@
   left: 100px;
 }
 .additional-info {
-  background-color: #274029;
+  background-color: #cb997e;
   width: 1400px;
   height: 200px;
   display: flex;
@@ -221,6 +269,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 50px;
+  top: 10px;
   left: 100px;
 }
