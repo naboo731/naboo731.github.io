@@ -283,6 +283,13 @@
   position: relative;
   left: 12px;
 }
+#delaware-img {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+}
 #contact-me {
   height: 400px;
   width: 1200px;
@@ -312,7 +319,7 @@
 .additional-info {
   background-color: #cb997e;
   width: 1400px;
-  height: 200px;
+  height: 400px;
   display: flex;
   position: relative;
   left: 12px;
