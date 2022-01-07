@@ -252,7 +252,6 @@
 #portfolio-section {
   height: 400px;
   width: 1200px;
-  background-color: antiquewhite;
   display: flex;
   justify-content: space-around;
   position: relative;
@@ -261,19 +260,19 @@
 }
 #img1 {
   position: relative;
-  top: 70px;
+  top: 100px;
 }
 #img2 {
   position: relative;
-  top: 150px;
+  top: 200px;
 }
 #img3 {
   position: relative;
-  top: 70px;
+  top: 100px;
 }
 #img4 {
   position: relative;
-  top: 150px;
+  top: 200px;
 }
 .contact-section {
   background-color: #94a187;
@@ -284,11 +283,11 @@
   left: 12px;
 }
 #delaware-img {
-  height: 300px;
-  width: 400px;
+  height: 250px;
+  width: 350px;
   position: relative;
-  left: 400px;
-  bottom: 50px;
+  left: 800px;
+  bottom: 120px;
 }
 #contact-me {
   height: 400px;
@@ -308,13 +307,16 @@
   justify-content: space-evenly;
 }
 .contact-icons {
-  font-size: 60px;
+  font-size: 40px;
   position: relative;
-  left: 50px;
+  right: 55px;
+  color: white;
+  text-decoration: none;
 }
 .contact-icons:hover {
   transform: scale(1.2);
   cursor: pointer;
+  color: #ddbea9;
 }
 .additional-info {
   background-color: #cb997e;
@@ -391,4 +393,21 @@
 #p3-code {
   position: relative;
   right: 10px;
+}
+#location-info {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.info-icon {
+  color: #6b705c;
+  font-size: 25px;
+}
+.fa-coffee {
+  position: relative;
+  right: 5px;
+}
+.fa-video {
+  position: relative;
+  right: 3px;
 }
