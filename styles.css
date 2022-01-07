@@ -236,10 +236,18 @@
   display: flex;
   position: relative;
   right: 60px;
+  z-index: 1;
 }
 .port-images:hover {
   cursor: pointer;
   transform: scale(1.1);
+  opacity: 0.3;
+  z-index: 0;
+}
+.text {
+  color: #6b705c;
+  font-size: 25px;
+  font-weight: 800;
 }
 #portfolio {
   background-color: #b7b7a4;
@@ -432,4 +440,24 @@
 #delaware-img {
   height: 250px;
   width: 350px;
+}
+#text1 {
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+}
+#text2 {
+  position: relative;
+  top: 80px;
+  right: 25px;
+}
+#text3 {
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+}
+#text4 {
+  position: relative;
+  top: 80px;
+  right: 25px;
 }
