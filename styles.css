@@ -282,13 +282,7 @@
   position: relative;
   left: 12px;
 }
-#delaware-img {
-  height: 250px;
-  width: 350px;
-  position: relative;
-  left: 800px;
-  bottom: 120px;
-}
+
 #contact-me {
   height: 400px;
   width: 1200px;
@@ -410,4 +404,32 @@
 .fa-video {
   position: relative;
   right: 3px;
+}
+.fa-instagram {
+  position: relative;
+  right: 3px;
+}
+.fa-dog {
+  position: relative;
+  right: 3px;
+}
+.icons-and-such {
+  height: 200px;
+  width: 300px;
+}
+#delaware-img-border {
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 750px;
+  bottom: 200px;
+}
+#delaware-img {
+  height: 250px;
+  width: 350px;
 }
