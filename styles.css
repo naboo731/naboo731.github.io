@@ -87,7 +87,7 @@
   justify-content: space-evenly;
   text-align: center;
   position: relative;
-  left: 320px;
+  left: 300px;
   font-size: 30px;
   font-weight: 50px;
   color: #181f1c;
@@ -100,7 +100,7 @@
 #left-quote {
   position: relative;
   bottom: 50px;
-  left: 15px;
+  left: 5px;
   font-family: "Island Moments", cursive;
   transform: rotate(180deg);
 }
@@ -130,6 +130,9 @@
 .icons {
   font-size: 80px;
   color: #cb997e;
+}
+.icons:hover {
+  transform: scale(1.3);
 }
 
 #langs {
@@ -226,6 +229,18 @@
   background-color: #6b705c;
   color: white;
 }
+
+.port-images {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  position: relative;
+  right: 60px;
+}
+.port-images:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 #portfolio {
   background-color: #b7b7a4;
   width: 1400px;
@@ -237,16 +252,33 @@
 #portfolio-section {
   height: 400px;
   width: 1200px;
+  background-color: antiquewhite;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   position: relative;
   top: 50px;
   left: 100px;
 }
+#img1 {
+  position: relative;
+  top: 70px;
+}
+#img2 {
+  position: relative;
+  top: 150px;
+}
+#img3 {
+  position: relative;
+  top: 70px;
+}
+#img4 {
+  position: relative;
+  top: 150px;
+}
 .contact-section {
   background-color: #94a187;
   width: 1400px;
-  height: 500px;
+  height: 300px;
   display: flex;
   position: relative;
   left: 12px;
@@ -255,10 +287,27 @@
   height: 400px;
   width: 1200px;
   display: flex;
-  flex-direction: column;
   position: relative;
   top: 50px;
   left: 100px;
+}
+.contact-me-btns {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  position: relative;
+  top: 100px;
+  right: 100px;
+  justify-content: space-evenly;
+}
+.contact-icons {
+  font-size: 60px;
+  position: relative;
+  left: 50px;
+}
+.contact-icons:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .additional-info {
   background-color: #cb997e;
@@ -276,4 +325,63 @@
   position: relative;
   top: 10px;
   left: 100px;
+}
+.projects-btns {
+  height: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 50px;
+}
+.project1-btns {
+  background-color: #6b705c;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.project1-btns:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #cb997e;
+}
+.project2-btns {
+  background-color: #6b705c;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.project2-btns:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #cb997e;
+}
+.project3-btns {
+  background-color: #6b705c;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.project3-btns:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #cb997e;
+}
+#p1-code {
+  position: relative;
+  right: 10px;
+}
+#p2-code {
+  position: relative;
+  right: 10px;
+}
+#p3-code {
+  position: relative;
+  right: 10px;
 }
